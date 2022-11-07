@@ -17,3 +17,13 @@ Create a `.env` file containing something like
 Then, run the migration with:
 
     source .env && tronbox migrate --network nile
+
+## Address Format
+
+All addresses should be in a hex format without `41` and started with `0x`.
+
+Example:
+
+`TSyUGKTr9JomhEM4jCgD1bZ27ef6Tgz8Ls` &rarr; `0xba86e11b56a66f7bb2663d5d49dd80b069265a37`
+
+Online address converter https://www.btcschools.net/tron/tron_tool_base58check_hex.php
